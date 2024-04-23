@@ -1,0 +1,25 @@
+forge init
+
+To compile:
+forge build
+
+anvil
+
+write data in a contract address with foundry:
+cast send 0x5FbDB2315678afecb367f032d93F642f64180aa3 "store(uint256)" (value)123 --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+
+
+read data in a contract address with foundry:
+cast call (contract address)0x5FbDB2315678afecb367f032d93F642f64180aa3 (function name)"retrieve()"
+
+to convert hexadecimal to decimal in foundry:
+cast --to-base 0x00 dec
+
+To use .env in the console:
+source .env
+
+For Testnet Deployment:
+forge script script/DeploySimpleStorage.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast
+
+For Local Anvil Deployment
+forge create --rpc-url $RPC_URL --private-key $PRIVATE_KEY src/SimpleStorage.sol:SimpleStorage
