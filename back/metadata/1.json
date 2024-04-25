@@ -1,0 +1,24 @@
+{
+  "description": "view on Acropolis from rocks",
+  "image": "bafybeiaiy4f4z4ztc4j6it54t24ta52u6ksn7lxjeeexda3dsj7yhjc7a4/1.jpg",
+  "name": "AcropolisNFT",
+  "attribute": [
+    {
+      "trait_type": "Photographer",
+      "value": "Volkan Güneri"
+    },
+    {
+      "trait_type": "City",
+      "value": "Athens"
+    },
+
+    {
+      "trait_type": "View",
+      "value": "Acropolis from rocks"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ]
+}
