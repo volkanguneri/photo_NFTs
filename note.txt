@@ -23,3 +23,27 @@ forge script script/DeploySimpleStorage.s.sol --rpc-url $SEPOLIA_RPC_URL --priva
 
 For Local Anvil Deployment
 forge create --rpc-url $RPC_URL --private-key $PRIVATE_KEY src/SimpleStorage.sol:SimpleStorage
+
+
+
+MintPNFT script deployed the contract by minting the PNFT Acropolis
+
+##### sepolia
+✅  [Success]Hash: 0x144732db17f50db2b3dd80b6c078898ea2cf4821e2026aec7f5ccc7af0e49e94
+Contract Address: 0x48EfB037BA6E30Fd02e108c0eB60Ad4c1c51378E
+Block: 5782224
+Paid: 0.00243396607596912 ETH (1300320 gas * 1.871820841 gwei)
+
+
+##### sepolia
+✅  [Success]Hash: 0x91732cddf2024209d332e53da80f4817fb108ff838b088726b463d3fa063e345
+Block: 5782224
+Paid: 0.000561952437422497 ETH (300217 gas * 1.871820841 gwei)
+
+
+Deployed only the contract PhotoNFT.sol
+
+✅  [Success]Hash: 0xbc20530e5c30d81a39541a091f85e9e3d33d2a5f917c207825308886e710f020
+Contract Address: 0x2f4e9E46F60e7C005E4F2D586af033FaA85bf9CF
+Block: 5782372
+Paid: 0.00210793152796128 ETH (1300320 gas * 1.621086754 gwei)

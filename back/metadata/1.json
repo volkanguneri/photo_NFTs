@@ -1,7 +1,8 @@
 {
   "description": "view on Acropolis from rocks",
-  "image": "bafybeiaiy4f4z4ztc4j6it54t24ta52u6ksn7lxjeeexda3dsj7yhjc7a4/1.jpg",
-  "name": "AcropolisNFT",
+  "image": "ipfs://bafybeieefm7q65gwlznakvw2po3axt2vmeq2sapid6hut6drxowyi6wwqy/1.jpg",
+  "cid": "bafybeieefm7q65gwlznakvw2po3axt2vmeq2sapid6hut6drxowyi6wwqy",
+  "name": "Acropolis",
   "attribute": [
     {
       "trait_type": "Photographer",
